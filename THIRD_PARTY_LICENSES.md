@@ -1,0 +1,29 @@
+ | Reference                                               | Version | License Type | License                                                                            | 
+ | ------------------------------------------------------- | ------- | ------------ | ---------------------------------------------------------------------------------- | 
+ | coverlet.collector                                      | 6.0.4   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | HtmlAgilityPack                                         | 1.12.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | MailKit                                                 | 4.14.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 8.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 10.0.3  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.DataAnnotations            | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.DataAnnotations            | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.DataAnnotations            | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.NET.Test.Sdk                                  | 18.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NSubstitute                                             | 5.3.0   | BSD-3-Clause | https://licenses.nuget.org/BSD-3-Clause                                            | 
+ | NUnit                                                   | 4.4.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NUnit.Analyzers                                         | 4.11.2  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NUnit3TestAdapter                                       | 6.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Serilog.Enrichers.CorrelationId                         | 3.0.1   |              | https://github.com/ekmsystems/serilog-enrichers-correlation-id/blob/master/LICENSE | 
+ | Serilog.Enrichers.Thread                                | 4.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Extensions.Hosting                              | 8.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Extensions.Hosting                              | 9.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Extensions.Hosting                              | 10.0.0  | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Settings.Configuration                          | 8.0.4   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Settings.Configuration                          | 9.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | Serilog.Settings.Configuration                          | 10.0.0  | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
