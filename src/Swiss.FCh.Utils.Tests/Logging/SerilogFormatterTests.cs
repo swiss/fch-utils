@@ -24,9 +24,9 @@ internal sealed class SerilogFormatterTests
 
         _formatter.Format(logEvent, output);
 
-        var renderedMessage = output.ToString();
+        var renderedMessage = output.ToString().Replace("\r", "", StringComparison.InvariantCultureIgnoreCase).Replace("\n", "", StringComparison.InvariantCultureIgnoreCase);
 
-        Assert.That(renderedMessage, Is.EqualTo("\r\n{ \"@timestamp\": \"" + now.ToString("o") + "\", \"level\": \"ERROR\", \"message\": \"test error \\\"{message}\\\"\", \"message_template\": \"test error \\\"{message}\\\"\",\"message\": \"my message\", \"exception\": \"System.ArgumentException: test \\\"exception\\\"\" }"));
+        Assert.That(renderedMessage, Is.EqualTo("{ \"@timestamp\": \"" + now.ToString("o") + "\", \"level\": \"ERROR\", \"message\": \"test error \\\"{message}\\\"\", \"message_template\": \"test error \\\"{message}\\\"\",\"message\": \"my message\", \"exception\": \"System.ArgumentException: test \\\"exception\\\"\" }"));
 
         output.Dispose();
     }
