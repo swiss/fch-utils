@@ -1,0 +1,5 @@
+dotnet_diagnostic.CA1848.severity = none
+dotnet_diagnostic.CA1308.severity = none
+dotnet_diagnostic.CA1873.severity = none
+dotnet_diagnostic.CA1031.severity = none
+dotnet_diagnostic.CA2007.severity = none
