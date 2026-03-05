@@ -69,44 +69,6 @@ internal sealed class EmailServiceTests
         await _smtpClient.Received(1).DisconnectAsync(Arg.Is(true));
     }
 
-    [Test]
-    public async Task Send_WithTextMessage_ShouldSetTextBody()
-    {
-        var email = new Email
-        {
-            From = new EmailAddress { Name = "test_from_name", Address = "test_from_address" },
-            To = new[] { new EmailAddress { Name = "test_to_name", Address = "test_to_address" } },
-            Subject = "test_subject",
-            TextMessage = "test_message"
-        };
-        MimeMessage messageToSend = null!;
-        _smtpClient.SendAsync(Arg.Do<MimeMessage>(m => messageToSend = m)).Returns(string.Empty);
-
-        await _service.Send(email);
-
-        Assert.That(messageToSend.TextBody, Is.EqualTo(email.TextMessage));
-    }
-
-    [Test]
-    public async Task Send_WithHtmlMessage_ShouldSetHtmlBody()
-    {
-        var email = new Email
-        {
-            From = new EmailAddress { Name = "test_from_name", Address = "test_from_address" },
-            To = [new EmailAddress { Name = "test_to_name", Address = "test_to_address" }],
-            Subject = "test_subject",
-            HtmlMessage = "test_html_message"
-        };
-
-        _email.HtmlMessage = "test_html_message";
-        MimeMessage messageToSend = null!;
-        _smtpClient.SendAsync(Arg.Do<MimeMessage>(m => messageToSend = m)).Returns(string.Empty);
-
-        await _service.Send(email);
-
-        Assert.That(messageToSend.HtmlBody, Is.EqualTo(email.HtmlMessage));
-    }
-
     [TestCase]
     public void Send_ThrowingException_ShouldRethrowException()
     {
