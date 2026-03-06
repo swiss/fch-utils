@@ -5,6 +5,7 @@ This library contains utils that can be used to integrate with the Redhat Opensh
 Additionally, it offers some general helpers
 - ```IEmailService``` based on MailKit
 - Serilog Formatter for optimal integration with Splunk in the FOITT
+- An ```HtmlNormalizer``` that can streamline HTML by removing styles, images, tags and more based on what is configured in ```HtmlNormalizerOptions``` .
 - Some converters 
 
 The latest NuGet package is published at https://www.nuget.org/packages/Swiss.FCh.Utils.
@@ -34,6 +35,10 @@ In your ```appsettings.json```, configure Serilog as follows.
 - Use ```IHostApplicationBuilder.AddRhosConfigurations("YOUR_STAGE")``` to read environment configurations.
 - Add PGSQL DB secrets like this: ```IHostApplicationBuilder.AddRhosPostgresConfiguration("YOUR_STAGE", "path-to-your/pg-database-credentials.json")```
 - Add S3 secrets like this: ```IHostApplicationBuilder.AddRhosS3Configuration("YOUR_STAGE", "path-to-your/s3-credentials.json")```
+
+## HTML Normalizer
+Use ```IServiceCollection.AddHtmlNormalizer()``` to register the ```Swiss.FCh.Utils.Services.IHtmlNormalizer``` in your DI container.
+Then call ```Swiss.FCh.Utils.Services.IHtmlNormalizer.Normalize("your HTML", new HtmlNormalizerOptions { ... })```
 
 # Contribution
 See: https://github.com/swiss/fch-urils/blob/main/CONTRIBUTING.md

@@ -27,7 +27,10 @@ public static class UtilsServiceCollectionExtensions
 
         services.AddScoped<ISmtpClientFactory, SmtpClientFactory>();
         services.AddScoped<IEmailService, EmailService>();
+    }
 
+    public static void AddHtmlNormalizer(this IServiceCollection services, IConfiguration configuration)
+    {
         services.AddScoped<IHtmlNormalizer, HtmlNormalizer>();
     }
 }
