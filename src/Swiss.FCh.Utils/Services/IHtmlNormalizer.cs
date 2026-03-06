@@ -1,4 +1,4 @@
-﻿using Swiss.FCh.Utils.Models;
+﻿using Swiss.FCh.Utils.Configurations;
 
 namespace Swiss.FCh.Utils.Services;
 

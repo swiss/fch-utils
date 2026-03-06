@@ -1,4 +1,4 @@
-using Swiss.FCh.Utils.Models;
+using Swiss.FCh.Utils.Configurations;
 using Swiss.FCh.Utils.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;

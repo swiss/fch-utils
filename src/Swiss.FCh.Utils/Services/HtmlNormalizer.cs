@@ -1,4 +1,4 @@
-using Swiss.FCh.Utils.Models;
+using Swiss.FCh.Utils.Configurations;
 using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
 
