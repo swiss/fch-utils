@@ -3,8 +3,7 @@
  | coverlet.collector                                      | 6.0.4   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | HtmlAgilityPack                                         | 1.12.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | MailKit                                                 | 4.15.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.EnvironmentVariables | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.Json                 | 8.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.Json                 | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
