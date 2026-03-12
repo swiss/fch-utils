@@ -61,12 +61,12 @@ internal sealed class EmailServiceTests
         MimeMessage messageToSend = null!;
         _smtpClient.SendAsync(Arg.Do<MimeMessage>(m => messageToSend = m)).Returns(string.Empty);
 
-        await _service.Send(_email);
+        await _service.Send(_email).ConfigureAwait(false);
 
         _smtpClientFactory.Received(1).Create();
-        await _smtpClient.Received(1).ConnectAsync(Arg.Is(_emailOptionsValue.Host), Arg.Is(_emailOptionsValue.Port));
-        await _smtpClient.Received(1).SendAsync(Arg.Is(messageToSend));
-        await _smtpClient.Received(1).DisconnectAsync(Arg.Is(true));
+        await _smtpClient.Received(1).ConnectAsync(Arg.Is(_emailOptionsValue.Host), Arg.Is(_emailOptionsValue.Port)).ConfigureAwait(false);
+        await _smtpClient.Received(1).SendAsync(Arg.Is(messageToSend)).ConfigureAwait(false);
+        await _smtpClient.Received(1).DisconnectAsync(Arg.Is(true)).ConfigureAwait(false);
     }
 
     [TestCase]
@@ -76,7 +76,7 @@ internal sealed class EmailServiceTests
         _smtpClient.ConnectAsync(Arg.Any<string>(), Arg.Any<int>()).ThrowsAsyncForAnyArgs(new Exception());
 #pragma warning restore CA2201
 
-        Assert.That(async () => await _service.Send(_email), Throws.InstanceOf<Exception>());
+        Assert.That(async () => await _service.Send(_email).ConfigureAwait(false), Throws.InstanceOf<Exception>());
     }
 
     [TestCase]
@@ -84,7 +84,7 @@ internal sealed class EmailServiceTests
     {
         _smtpClient.ConnectAsync(Arg.Any<string>(), Arg.Any<int>()).ThrowsAsyncForAnyArgs(new SmtpCommandException(SmtpErrorCode.UnexpectedStatusCode, SmtpStatusCode.SyntaxError, string.Empty));
 
-        Assert.That(async () => await _service.Send(_email), Throws.InstanceOf<SmtpCommandException>());
+        Assert.That(async () => await _service.Send(_email).ConfigureAwait(false), Throws.InstanceOf<SmtpCommandException>());
     }
 
     [TestCase]
@@ -92,6 +92,6 @@ internal sealed class EmailServiceTests
     {
         _smtpClient.ConnectAsync(Arg.Any<string>(), Arg.Any<int>()).ThrowsAsyncForAnyArgs(new SmtpProtocolException());
 
-        Assert.That(async () => await _service.Send(_email), Throws.InstanceOf<SmtpProtocolException>());
+        Assert.That(async () => await _service.Send(_email).ConfigureAwait(false), Throws.InstanceOf<SmtpProtocolException>());
     }
 }

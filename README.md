@@ -29,7 +29,7 @@ A configuration section like the following must be present in your app settings.
 ### Sending an E-Mail
 Sending an e-mail could then be implemented as follows.
 
-```
+```csharp
 var message = new Email
 {
     From = new EmailAddress { Address = "from@example.com", Name = "From" },
