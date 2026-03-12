@@ -51,9 +51,9 @@ internal class EmailService : IEmailService
             message.Body = bodyBuilder.ToMessageBody();
 
             using var client = _smtpClientFactory.Create();
-            await client.ConnectAsync(_emailOptions.Host, _emailOptions.Port);
-            await client.SendAsync(message);
-            await client.DisconnectAsync(true);
+            await client.ConnectAsync(_emailOptions.Host, _emailOptions.Port).ConfigureAwait(false);
+            await client.SendAsync(message).ConfigureAwait(false);
+            await client.DisconnectAsync(true).ConfigureAwait(false);
 
             message.Dispose();
         }
