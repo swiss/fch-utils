@@ -6,8 +6,7 @@
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.Json                 | 8.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.Json                 | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 10.0.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.Json                 | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.ConfigurationExtensions    | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.ConfigurationExtensions    | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
