@@ -3,9 +3,17 @@
  | coverlet.collector                                      | 10.0.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | HtmlAgilityPack                                         | 1.12.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | MailKit                                                 | 4.16.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.7  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 8.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.Json                 | 10.0.7  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.ConfigurationExtensions    | 10.0.7  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.DataAnnotations            | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.DataAnnotations            | 9.0.11  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.DataAnnotations            | 10.0.7  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.NET.Test.Sdk                                  | 18.5.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | NSubstitute                                             | 5.3.0   | BSD-3-Clause | https://licenses.nuget.org/BSD-3-Clause                                            | 
