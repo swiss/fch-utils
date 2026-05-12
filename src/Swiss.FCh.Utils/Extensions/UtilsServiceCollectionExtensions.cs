@@ -1,4 +1,4 @@
-﻿using Swiss.FCh.Utils.Configurations;
+using Swiss.FCh.Utils.Configurations;
 using Swiss.FCh.Utils.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

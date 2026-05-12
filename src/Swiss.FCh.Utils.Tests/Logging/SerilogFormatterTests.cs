@@ -18,7 +18,7 @@ internal sealed class SerilogFormatterTests
             now,
             LogEventLevel.Fatal,
             new ArgumentException("test \"exception\""),
-            new MessageTemplate([new TextToken("test error \"{message}\"")]) , [new LogEventProperty("message", new ScalarValue("my message"))]);
+            new MessageTemplate([new TextToken("test error \"{message}\"")]), [new LogEventProperty("message", new ScalarValue("my message"))]);
 
         var output = new StringWriter();
 

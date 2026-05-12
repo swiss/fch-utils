@@ -1,4 +1,4 @@
-﻿using Swiss.FCh.Utils.Services;
+using Swiss.FCh.Utils.Services;
 
 namespace Swiss.FCh.Utils.Tests.Services;
 

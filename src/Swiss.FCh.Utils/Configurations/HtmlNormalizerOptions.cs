@@ -1,4 +1,4 @@
-﻿namespace Swiss.FCh.Utils.Configurations;
+namespace Swiss.FCh.Utils.Configurations;
 
 public class HtmlNormalizerOptions
 {

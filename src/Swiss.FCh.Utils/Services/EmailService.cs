@@ -1,4 +1,4 @@
-﻿using Swiss.FCh.Utils.Configurations;
+using Swiss.FCh.Utils.Configurations;
 using Swiss.FCh.Utils.Models;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Logging;

@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.2
+NuGet dependencies updated
+
 ## v2.0.1
 Distinction between different dotnet versions corrected
 
