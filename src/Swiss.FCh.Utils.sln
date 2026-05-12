@@ -4,7 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swiss.FCh.Utils", "Swiss.FC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{EEF44456-8132-4A1E-AEDF-1D3F0CC4920B}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\nuget.config = ..\..\nuget.config
+		..\.editorconfig = ..\.editorconfig
+		..\CHANGELOG.md = ..\CHANGELOG.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swiss.FCh.Utils.Tests", "Swiss.FCh.Utils.Tests\Swiss.FCh.Utils.Tests.csproj", "{010DC360-F24E-48F8-A21E-54F048804956}"
