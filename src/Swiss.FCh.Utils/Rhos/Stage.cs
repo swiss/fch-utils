@@ -1,4 +1,4 @@
-﻿namespace Swiss.FCh.Utils.Rhos;
+namespace Swiss.FCh.Utils.Rhos;
 
 public sealed class Stage
 {

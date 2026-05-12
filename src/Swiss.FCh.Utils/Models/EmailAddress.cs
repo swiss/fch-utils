@@ -1,4 +1,4 @@
-﻿namespace Swiss.FCh.Utils.Models;
+namespace Swiss.FCh.Utils.Models;
 
 public class EmailAddress
 {

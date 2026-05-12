@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using Swiss.FCh.Utils.Converter;
 
 namespace Swiss.FCh.Utils.Tests.Converter;
