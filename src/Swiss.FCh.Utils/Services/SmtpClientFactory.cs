@@ -2,7 +2,7 @@ using MailKit.Net.Smtp;
 
 namespace Swiss.FCh.Utils.Services;
 
-public class SmtpClientFactory : ISmtpClientFactory
+internal class SmtpClientFactory : ISmtpClientFactory
 {
     public ISmtpClient Create()
     {

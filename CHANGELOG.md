@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.0.0
+- XML comments for public members added.
+- BREAKING CHANGE: Visibility of ```Swiss.FCh.Utils.Services.HtmlNormalizer``` and ```Swiss.FCh.Utils.Services.SmtpClientFactory``` is now ```internal```.
+
 ## v2.0.2
 NuGet dependencies updated
 
