@@ -3,7 +3,7 @@ namespace Swiss.FCh.Utils.Rhos;
 /// <summary>
 /// This class holds the default stages on the Redhat Openshift environment of the FOITT.
 /// </summary>
-public sealed class Stage
+public static class Stage
 {
     /// <summary>
     /// Default name of the "development" environment.
