@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Swiss.FCh.Utils.Services;
 
-public class HtmlNormalizer : IHtmlNormalizer
+internal class HtmlNormalizer : IHtmlNormalizer
 {
     private const string ClassAttributeName = "class";
     private const string StyleAttributeName = "style";
