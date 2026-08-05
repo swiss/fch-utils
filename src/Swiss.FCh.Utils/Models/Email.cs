@@ -1,7 +1,7 @@
 namespace Swiss.FCh.Utils.Models;
 
 /// <summary>
-/// This class defines the possible configuration for the <see cref="Swiss.FCh.Utils.Services.IEmailService"/>.
+/// This class represents an e-mail to be sent with <see cref="Swiss.FCh.Utils.Services.IEmailService"/>.
 /// </summary>
 public class Email
 {

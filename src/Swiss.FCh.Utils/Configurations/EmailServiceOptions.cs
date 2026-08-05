@@ -13,7 +13,7 @@ public class EmailServiceOptions
     public const string SectionKey = "EmailService";
 
     /// <summary>
-    /// URL of the SMTP server.
+    /// Hostname of the SMTP server.
     /// </summary>
     [Required]
     public required string Host { get; init; }
