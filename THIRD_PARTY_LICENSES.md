@@ -1,25 +1,25 @@
  | Reference                                               | Version | License Type | License                                                                            | 
  | ------------------------------------------------------- | ------- | ------------ | ---------------------------------------------------------------------------------- | 
- | coverlet.collector                                      | 10.0.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | HtmlAgilityPack                                         | 1.12.4  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | MailKit                                                 | 4.17.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | coverlet.collector                                      | 10.1.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | HtmlAgilityPack                                         | 1.13.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | MailKit                                                 | 4.18.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.EnvironmentVariables | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.18  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.10 | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 9.0.21  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.EnvironmentVariables | 10.0.13 | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Configuration.Json                 | 8.0.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.Json                 | 9.0.18  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Configuration.Json                 | 10.0.10 | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 9.0.21  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Configuration.Json                 | 10.0.13 | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.ConfigurationExtensions    | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Options.ConfigurationExtensions    | 9.0.18  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.Extensions.Options.ConfigurationExtensions    | 10.0.10 | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 9.0.21  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.Extensions.Options.ConfigurationExtensions    | 10.0.13 | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.DataAnnotations            | 8.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.DataAnnotations            | 9.0.18  | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Microsoft.Extensions.Options.DataAnnotations            | 10.0.10 | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | Microsoft.NET.Test.Sdk                                  | 18.8.1  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | NSubstitute                                             | 6.0.0   | BSD-3-Clause | https://licenses.nuget.org/BSD-3-Clause                                            | 
- | NUnit                                                   | 4.6.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | NUnit.Analyzers                                         | 4.14.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
- | NUnit3TestAdapter                                       | 6.2.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | Microsoft.NET.Test.Sdk                                  | 18.11.0 | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NSubstitute                                             | 6.2.0   | BSD-3-Clause | https://licenses.nuget.org/BSD-3-Clause                                            | 
+ | NUnit                                                   | 5.0.0   | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NUnit.Analyzers                                         | 4.15.0  | MIT          | https://licenses.nuget.org/MIT                                                     | 
+ | NUnit3TestAdapter                                       | 6.3.1   | MIT          | https://licenses.nuget.org/MIT                                                     | 
  | Serilog.Enrichers.CorrelationId                         | 3.0.1   |              | https://github.com/ekmsystems/serilog-enrichers-correlation-id/blob/master/LICENSE | 
  | Serilog.Enrichers.Thread                                | 4.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
  | Serilog.Extensions.Hosting                              | 8.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
