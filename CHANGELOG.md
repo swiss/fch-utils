@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.0.2
+Dependencies upgraded
+
 ## v3.0.1
 Minor corrections in the XML documentation of public members.
 
