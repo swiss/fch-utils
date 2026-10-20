@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.0.3
+Vulnerability in `System.Security.Cryptography.Pkcs` patched
+
 ## v3.0.2
 Dependencies upgraded
 
