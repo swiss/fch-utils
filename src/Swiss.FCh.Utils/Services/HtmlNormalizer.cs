@@ -62,7 +62,7 @@ internal class HtmlNormalizer : IHtmlNormalizer
                     // Move all child nodes of the anchor to its parent before removing the anchor itself
                     foreach (var childNode in node.ChildNodes)
                     {
-                        node.ParentNode.InsertBefore(childNode, node);
+                        node.ParentNode?.InsertBefore(childNode, node);
                     }
 
                     node.Remove();
@@ -124,7 +124,7 @@ internal class HtmlNormalizer : IHtmlNormalizer
 
                 if (newNode is not null)
                 {
-                    node.ParentNode.ReplaceChild(newNode, node);
+                    node.ParentNode?.ReplaceChild(newNode, node);
                 }
 
                 _logger.LogInformation("Removing 'style' attribute on html element '{HtmlElement}'", node.Name);
@@ -155,7 +155,7 @@ internal class HtmlNormalizer : IHtmlNormalizer
                 // Move all child nodes of the span to its parent before removing the span itself
                 foreach (var childNode in node.ChildNodes)
                 {
-                    node.ParentNode.InsertBefore(childNode, node);
+                    node.ParentNode?.InsertBefore(childNode, node);
                 }
 
                 node.Remove();
