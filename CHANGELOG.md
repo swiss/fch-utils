@@ -1,7 +1,8 @@
 # Changelog
 
 ## v3.0.3
-Vulnerability in `System.Security.Cryptography.Pkcs` patched
+- Vulnerability in `System.Security.Cryptography.Pkcs` patched
+- Nullability warnings fixed
 
 ## v3.0.2
 Dependencies upgraded
