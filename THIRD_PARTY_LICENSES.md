@@ -28,3 +28,4 @@
  | Serilog.Settings.Configuration                          | 8.0.4   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
  | Serilog.Settings.Configuration                          | 9.0.0   | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
  | Serilog.Settings.Configuration                          | 10.0.1  | Apache-2.0   | https://licenses.nuget.org/Apache-2.0                                              | 
+ | System.Security.Cryptography.Pkcs                       | 10.0.13 | MIT          | https://licenses.nuget.org/MIT                                                     | 
